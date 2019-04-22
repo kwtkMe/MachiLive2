@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZQb-t1-6Ee">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ピンを登録する-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SetPinPointViewController" customModule="MachiLive" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ピンを登録する" id="UXS-1b-XaK"/>
+                    <connections>
+                        <segue destination="zgI-XN-Yp5" kind="show" id="WI8-zf-Ds8"/>
+                        <segue destination="MiS-uQ-swQ" kind="show" id="Ouc-4T-4eO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="134"/>
+        </scene>
+        <!--ピンを設定する-->
+        <scene sceneID="mQv-rv-WRv">
+            <objects>
+                <viewController id="zgI-XN-Yp5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GUp-2I-6HJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Qhr-24-9Rr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ピンを設定する" id="YMq-gf-7Hr"/>
+                    <connections>
+                        <segue destination="ToK-Lz-FPw" kind="show" id="lZO-zd-2gK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JfM-UH-tUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="967"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zbd-g1-fFO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZQb-t1-6Ee" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gAD-yG-07q">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Zzn-5R-9Ve"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZP8-hx-3Kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="134"/>
+        </scene>
+        <!--座標を入力-->
+        <scene sceneID="aWW-11-jvk">
+            <objects>
+                <viewController id="ToK-Lz-FPw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ReE-HE-nKA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FWz-qF-B8G">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FWz-qF-B8G" firstAttribute="bottom" secondItem="EP6-dk-3rT" secondAttribute="bottom" id="Ibn-MZ-ADw"/>
+                            <constraint firstItem="FWz-qF-B8G" firstAttribute="top" secondItem="EP6-dk-3rT" secondAttribute="top" id="SZ5-Q5-JZe"/>
+                            <constraint firstItem="FWz-qF-B8G" firstAttribute="trailing" secondItem="EP6-dk-3rT" secondAttribute="trailing" id="nJ8-Fc-5VQ"/>
+                            <constraint firstItem="FWz-qF-B8G" firstAttribute="leading" secondItem="EP6-dk-3rT" secondAttribute="leading" id="tcS-Og-LzR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EP6-dk-3rT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="座標を入力" id="nPv-zV-2kY"/>
+                    <connections>
+                        <segue destination="srt-G7-HXs" kind="show" id="m3r-Hj-xoC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fx9-3N-yOb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="966.56671664167925"/>
+        </scene>
+        <!--MachiLive!-->
+        <scene sceneID="FMJ-3b-AJI">
+            <objects>
+                <viewController id="MiS-uQ-swQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bpf-ve-Xov">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TlJ-JD-JbH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TlJ-JD-JbH" firstAttribute="top" secondItem="kEj-0j-B9p" secondAttribute="top" id="B9q-jP-r1f"/>
+                            <constraint firstItem="TlJ-JD-JbH" firstAttribute="trailing" secondItem="kEj-0j-B9p" secondAttribute="trailing" id="HnG-Me-CfV"/>
+                            <constraint firstItem="TlJ-JD-JbH" firstAttribute="leading" secondItem="kEj-0j-B9p" secondAttribute="leading" id="JJ3-KB-FdY"/>
+                            <constraint firstItem="TlJ-JD-JbH" firstAttribute="bottom" secondItem="kEj-0j-B9p" secondAttribute="bottom" id="ZzX-01-8fV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kEj-0j-B9p"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MachiLive!" id="17R-FV-JYF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1za-bG-5Gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="133.5832083958021"/>
+        </scene>
+        <!--楽曲を選択-->
+        <scene sceneID="BQS-vI-UsI">
+            <objects>
+                <viewController id="srt-G7-HXs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8E0-Om-a6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="B4B-FJ-i0c"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="楽曲を選択" id="Wdc-Nb-c8Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpa-kr-ig2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2937" y="967"/>
+        </scene>
+    </scenes>
+</document>
