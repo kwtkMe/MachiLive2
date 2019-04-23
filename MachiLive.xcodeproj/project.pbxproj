@@ -12,6 +12,19 @@
 		467FC939226D34C900787148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467FC937226D34C900787148 /* Main.storyboard */; };
 		467FC93B226D34CB00787148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467FC93A226D34CB00787148 /* Assets.xcassets */; };
 		467FC93E226D34CB00787148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467FC93C226D34CB00787148 /* LaunchScreen.storyboard */; };
+		467FC94A226D483000787148 /* ConfigPinPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC949226D483000787148 /* ConfigPinPointViewController.swift */; };
+		467FC94C226D486500787148 /* SetPinPointPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC94B226D486500787148 /* SetPinPointPointViewController.swift */; };
+		467FC94E226D487E00787148 /* SetPinPointSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC94D226D487E00787148 /* SetPinPointSongViewController.swift */; };
+		467FC953226D4A7500787148 /* PinPointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC952226D4A7500787148 /* PinPointTableViewCell.swift */; };
+		467FC955226D4B3500787148 /* PinPointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467FC954226D4B3500787148 /* PinPointTableViewCell.xib */; };
+		467FC957226D60AE00787148 /* SetPinPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC956226D60AE00787148 /* SetPinPointModel.swift */; };
+		467FC959226D60BC00787148 /* SetPinPointPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC958226D60BC00787148 /* SetPinPointPresenter.swift */; };
+		467FC95B226D60D100787148 /* ConfigPinPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC95A226D60D100787148 /* ConfigPinPointModel.swift */; };
+		467FC95D226D60DE00787148 /* ConfigPinPointPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC95C226D60DE00787148 /* ConfigPinPointPresenter.swift */; };
+		467FC963226D611300787148 /* SetPinPointPointPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC962226D611300787148 /* SetPinPointPointPresenter.swift */; };
+		467FC965226D611F00787148 /* SetPinPointPointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC964226D611F00787148 /* SetPinPointPointModel.swift */; };
+		467FC967226D612E00787148 /* SetPinPointSongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC966226D612E00787148 /* SetPinPointSongModel.swift */; };
+		467FC969226D613800787148 /* SetPinPointSongPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467FC968226D613800787148 /* SetPinPointSongPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		467FC93A226D34CB00787148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467FC93D226D34CB00787148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		467FC93F226D34CB00787148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467FC949226D483000787148 /* ConfigPinPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigPinPointViewController.swift; sourceTree = "<group>"; };
+		467FC94B226D486500787148 /* SetPinPointPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointPointViewController.swift; sourceTree = "<group>"; };
+		467FC94D226D487E00787148 /* SetPinPointSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointSongViewController.swift; sourceTree = "<group>"; };
+		467FC952226D4A7500787148 /* PinPointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPointTableViewCell.swift; sourceTree = "<group>"; };
+		467FC954226D4B3500787148 /* PinPointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinPointTableViewCell.xib; sourceTree = "<group>"; };
+		467FC956226D60AE00787148 /* SetPinPointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointModel.swift; sourceTree = "<group>"; };
+		467FC958226D60BC00787148 /* SetPinPointPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointPresenter.swift; sourceTree = "<group>"; };
+		467FC95A226D60D100787148 /* ConfigPinPointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigPinPointModel.swift; sourceTree = "<group>"; };
+		467FC95C226D60DE00787148 /* ConfigPinPointPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigPinPointPresenter.swift; sourceTree = "<group>"; };
+		467FC962226D611300787148 /* SetPinPointPointPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointPointPresenter.swift; sourceTree = "<group>"; };
+		467FC964226D611F00787148 /* SetPinPointPointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointPointModel.swift; sourceTree = "<group>"; };
+		467FC966226D612E00787148 /* SetPinPointSongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointSongModel.swift; sourceTree = "<group>"; };
+		467FC968226D613800787148 /* SetPinPointSongPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinPointSongPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +85,7 @@
 				467FC93A226D34CB00787148 /* Assets.xcassets */,
 				467FC93C226D34CB00787148 /* LaunchScreen.storyboard */,
 				467FC93F226D34CB00787148 /* Info.plist */,
+				467FC94F226D48D100787148 /* util */,
 				467FC946226D3B2E00787148 /* SetPinPoint */,
 				467FC945226D3AEB00787148 /* ConfigPinPoint */,
 				467FC947226D3B5200787148 /* SetPinPointPoint */,
@@ -70,6 +97,9 @@
 		467FC945226D3AEB00787148 /* ConfigPinPoint */ = {
 			isa = PBXGroup;
 			children = (
+				467FC949226D483000787148 /* ConfigPinPointViewController.swift */,
+				467FC95C226D60DE00787148 /* ConfigPinPointPresenter.swift */,
+				467FC95A226D60D100787148 /* ConfigPinPointModel.swift */,
 			);
 			path = ConfigPinPoint;
 			sourceTree = "<group>";
@@ -78,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				467FC935226D34C900787148 /* SetPinPointViewController.swift */,
+				467FC958226D60BC00787148 /* SetPinPointPresenter.swift */,
+				467FC956226D60AE00787148 /* SetPinPointModel.swift */,
 			);
 			path = SetPinPoint;
 			sourceTree = "<group>";
@@ -85,6 +117,9 @@
 		467FC947226D3B5200787148 /* SetPinPointPoint */ = {
 			isa = PBXGroup;
 			children = (
+				467FC94B226D486500787148 /* SetPinPointPointViewController.swift */,
+				467FC962226D611300787148 /* SetPinPointPointPresenter.swift */,
+				467FC964226D611F00787148 /* SetPinPointPointModel.swift */,
 			);
 			path = SetPinPointPoint;
 			sourceTree = "<group>";
@@ -92,8 +127,20 @@
 		467FC948226D3B6600787148 /* SetPinPointSong */ = {
 			isa = PBXGroup;
 			children = (
+				467FC94D226D487E00787148 /* SetPinPointSongViewController.swift */,
+				467FC968226D613800787148 /* SetPinPointSongPresenter.swift */,
+				467FC966226D612E00787148 /* SetPinPointSongModel.swift */,
 			);
 			path = SetPinPointSong;
+			sourceTree = "<group>";
+		};
+		467FC94F226D48D100787148 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				467FC952226D4A7500787148 /* PinPointTableViewCell.swift */,
+				467FC954226D4B3500787148 /* PinPointTableViewCell.xib */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +203,7 @@
 			files = (
 				467FC93E226D34CB00787148 /* LaunchScreen.storyboard in Resources */,
 				467FC93B226D34CB00787148 /* Assets.xcassets in Resources */,
+				467FC955226D4B3500787148 /* PinPointTableViewCell.xib in Resources */,
 				467FC939226D34C900787148 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +216,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				467FC936226D34C900787148 /* SetPinPointViewController.swift in Sources */,
+				467FC94E226D487E00787148 /* SetPinPointSongViewController.swift in Sources */,
+				467FC963226D611300787148 /* SetPinPointPointPresenter.swift in Sources */,
+				467FC95B226D60D100787148 /* ConfigPinPointModel.swift in Sources */,
+				467FC959226D60BC00787148 /* SetPinPointPresenter.swift in Sources */,
+				467FC94C226D486500787148 /* SetPinPointPointViewController.swift in Sources */,
+				467FC965226D611F00787148 /* SetPinPointPointModel.swift in Sources */,
+				467FC969226D613800787148 /* SetPinPointSongPresenter.swift in Sources */,
+				467FC94A226D483000787148 /* ConfigPinPointViewController.swift in Sources */,
+				467FC953226D4A7500787148 /* PinPointTableViewCell.swift in Sources */,
+				467FC957226D60AE00787148 /* SetPinPointModel.swift in Sources */,
 				467FC934226D34C900787148 /* AppDelegate.swift in Sources */,
+				467FC967226D612E00787148 /* SetPinPointSongModel.swift in Sources */,
+				467FC95D226D60DE00787148 /* ConfigPinPointPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
